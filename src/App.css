@@ -1,0 +1,199 @@
+* {
+	box-sizing: border-box;
+}
+
+a,
+a:hover,
+a:visited,
+a:active {
+	color: black;
+}
+
+.page {
+	width: 500px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+
+	background-color: lightgray;
+	border-radius: 5px;
+}
+
+.menu {
+	display: flex;
+	width: 100%;
+	padding: 5px;
+}
+
+.menu-item {
+	padding: 10px 5px;
+	border-radius: 5px;
+}
+
+.card-content {
+	padding: 15px 15px 5px 15px;
+	background-color: #dddddd;
+
+	text-align: end;
+}
+
+.card {
+	width: 515px;
+	padding: 10px;
+
+	margin-left: auto;
+	margin-right: auto;
+
+	background-color: #555555;
+}
+
+.nav-card {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.error {
+	display: inline-block;
+	padding: 5px;
+	margin-bottom: 5px;
+
+	color: #ffffff;
+	background-color: #555555;
+	border-radius: 5px;
+}
+
+.visually-hidden {
+	position: absolute;
+	width: 1px;
+	height: 1px;
+	clip: rect(1px, 1px, 1px, 1px);
+}
+
+.enter-user-message {
+	padding: 15px;
+	margin-bottom: 20px;
+
+	min-width: 100%;
+	max-width: 100%;
+	min-height: 100px;
+	max-height: 100px;
+	width: 100%;
+	height: 50px;
+	border-radius: 10px;
+}
+
+.enter-user-message:focus {
+	border: none;
+	outline: none;
+}
+
+.menu-item {
+	margin-bottom: 10px;
+
+	text-align: end;
+	background-color: #ffffff;
+}
+
+.button {
+	padding: 5px 10px;
+
+	outline: none;
+	border: none;
+	border-radius: 5px;
+}
+
+.button-add, .button-new-card,
+.button-edit {
+	background-color: #0077ff;
+	color: #ffffff;
+	font-size: 12px;
+}
+
+.button-close {
+	padding: 0;
+	font-size: 18px;
+	background-color: transparent;
+	color: #999999;
+}
+
+.content-user-data-card {
+	margin-bottom: 10px;
+}
+
+.content-user-data {
+	padding: 10px 10px;
+	background-color: #ffffff;
+}
+
+.user-data {
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+
+	font-size: 12px;
+}
+
+.user-name {
+	color: #0077ff;
+}
+
+.time {
+	font-size: 10px;
+}
+
+.user-data-avatar {
+	width: 40px;
+	height: 40px;
+	margin-right: 10px;
+
+	border-radius: 50%;
+	background-color: gray;
+}
+
+.link-to {
+	text-decoration: none;
+}
+
+.button-container {
+	display: flex;
+	justify-content: flex-end;
+}
+
+.button-edit {
+	margin-right: 15px;
+}
+
+.button-del {
+	background-color: #ff0000;
+	color: #ffffff;
+	font-size: 12px;
+}
+
+.item-content {
+	margin-bottom: 10px;
+	padding: 10px;
+
+	border-bottom: 1px solid #000000;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 10px;
+}
+
+.edit-content-message {
+	display: flex;
+}
+
+.edit-message {
+	width: 100%;
+}
+
+.edit-user-message {
+	width: 100%;
+}
+
+.edit-message {
+	border: 1px solid #000000;
+}
